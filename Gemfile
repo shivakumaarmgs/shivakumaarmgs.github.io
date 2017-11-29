@@ -9,3 +9,5 @@ gem 'middleman-sprockets', '~> 4.1.0'
 gem "middleman-blog", "~> 4.0"
 gem "middleman-syntax", "~> 3.0.0"
 gem 'redcarpet', '~> 3.4.0'
+gem 'nokogiri', '~> 1.6', '>= 1.6.8'
+

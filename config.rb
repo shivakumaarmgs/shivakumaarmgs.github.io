@@ -13,8 +13,10 @@ set :markdown, :fenced_code_blocks => true, :smartypants => true
 
 activate :blog do  |blog|
   blog.sources = "posts/{year}-{month}-{day}-{title}.html"
-  blog.permalink = "posts/{title}.html"
+  blog.permalink = "{title}.html"
   blog.layout = 'blog'
+  blog.paginate = true
+  blog.page_link = "p{num}"
 end
 
 # Layouts
