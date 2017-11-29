@@ -1,2 +1,21 @@
+@import 'bootstrap.min.css';
 @import 'font-awesome.min.css';
-@import 'clean-blog.scss';
+@import 'clean-blog.min.css';
+@import 'highlight.css';
+
+p {
+  font-size: 19px;
+}
+
+header.masthead {
+  background-color: #0085a1;
+  .site-heading {
+    padding: 120px;
+    h1 {
+      font-size: 60px;
+    }
+    .subheading {
+      font-size: 20px;
+    }
+  }
+}

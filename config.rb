@@ -6,11 +6,15 @@ activate :autoprefixer do |prefix|
 end
 
 activate :sprockets
+activate :syntax
+
+set :markdown_engine, :redcarpet
+set :markdown, :fenced_code_blocks => true, :smartypants => true
 
 activate :blog do  |blog|
   blog.sources = "posts/{year}-{month}-{day}-{title}.html"
   blog.permalink = "posts/{title}.html"
-  blog.layout = 'application'
+  blog.layout = 'blog'
 end
 
 # Layouts

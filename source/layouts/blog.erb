@@ -1,5 +1,11 @@
-<% wrap_layout :layout do %>
+<% wrap_layout :application do %>
   <article>
-    <%= yield %>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <%= yield %>
+        </div>
+      </div>
+    </div>
   </article>
 <% end %>
