@@ -14,12 +14,12 @@ per_page: 20
     <% articles.each_with_index do |article, i| %>
       <dl class="row">
         <dt class="col-lg-9 col-md-8 col-sm-7">
-        <a class="cust-post-title" href="<%= article.url %>">
-          <h3> <%= article.title %> </h3>
+        <a href="<%= article.url %>">
+          <h3><%= article.title %></h3>
         </a>
         </dt>
         <dd class="col-lg-3 col-md-4 col-sm-5">
-        <small class="font-italic"><%= article.date.strftime('%B %e, %Y') %></small>
+        &nbsp;&nbsp;<small class="font-italic text-muted"><%= article.date.strftime('%B %e, %Y') %></small>
         </dd>
       </dl>
     <% end%>

@@ -1,36 +1,9 @@
 @import 'bootstrap.min.css';
 @import 'font-awesome.min.css';
-@import 'clean-blog.min.css';
+@import 'clean-blog/clean-blog.scss';
 @import 'highlight.css';
 
-p {
-  font-size: 19px;
-  a {
-    color: #0085a1;
-    text-decoration: none;
-  }
-}
-
-header.masthead {
-  background-color: #0085a1;
-  .site-heading {
-    padding: 120px;
-    h1 {
-      font-size: 60px;
-    }
-    .subheading {
-      font-size: 20px;
-    }
-  }
-}
-
-.cust-post-title {
-  &:hover {
-    text-decoration: none;
-  }
-}
-
-.page-number {
-  padding: 13px 0px;
-  font-size: 16px;
-}
+/*.page-number {*/
+  /*padding: 13px 0px;*/
+  /*font-size: 16px;*/
+/*}*/
