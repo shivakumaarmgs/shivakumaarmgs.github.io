@@ -5,6 +5,10 @@
 
 p {
   font-size: 19px;
+  a {
+    color: #0085a1;
+    text-decoration: none;
+  }
 }
 
 header.masthead {
@@ -21,7 +25,9 @@ header.masthead {
 }
 
 .cust-post-title {
-  font-weight: 600;
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 .page-number {
